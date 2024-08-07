@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img id="birthdayImage" src="./Halade.png" alt="Birthday Image" class="image-transition">
+
+        <form id="birthdayForm">
+            <label for="code">Nhập code sinh nhật: </label>
+            <input type="text" id="code" name="code" required>
+            <button type="submit">Gửi</button>
+        </form>
+
+        <div id="wishForm" class="hidden">
+            <p>Nhập điều ước sinh nhật của bạn vào đây: </p>
+            <input style="width: 50%; height: 5rem;" type="text" id="wish" name="wish" required>
+            <button type="submit" id="submitWish">Gửi</button>
+        </div>
+
+        <div id="message" class="hidden">
+            <!--<p>Điều ước của bạn sẽ thành sự thật!</p>-->
+            <br>
+            <div><span style="color: #e09701">Đ</span><span style="color: #df9006">i</span><span style="color: #de880a">ề</span><span style="color: #dd810f">u</span><span style="color: #dc7913"> </span><span style="color: #dc7218">ư</span><span style="color: #db6a1d">ớ</span><span style="color: #da6321">c</span><span style="color: #d95b26"> </span><span style="color: #d8542a">c</span><span style="color: #d74c2f">ủ</span><span style="color: #d64533">a</span><span style="color: #d53d38"> </span><span style="color: #d5363d">b</span><span style="color: #d42e41">ạ</span><span style="color: #d32746">n</span><span style="color: #d21f4a"> </span><span style="color: #d1184f">s</span><span style="color: #c4234b">ẽ</span><span style="color: #b82e46"> </span><span style="color: #ab3942">t</span><span style="color: #9e443e">h</span><span style="color: #924f39">à</span><span style="color: #855a35">n</span><span style="color: #786531">h</span><span style="color: #6c712d"> </span><span style="color: #5f7c28">s</span><span style="color: #528724">ự</span><span style="color: #459220"> </span><span style="color: #399d1b">t</span><span style="color: #2ca817">h</span><span style="color: #1fb313">ậ</span><span style="color: #13be0e">t</span><span style="color: #06c90a">!</span></div>
+            <marquee><p>Chúc chị một tuổi mới nhiều niềm vui, ngày càng xinh đẹp, thành công, hạnh phúc, xung quanh luôn ngập tràn tình yêu thương!</p></marquee>
+            <div class="firework"></div>
+            <div class="firework"></div>
+            <div class="firework"></div>
+            <div class="firework"></div>
+            <div class="firework"></div>
+            <div class="firework"></div>
+            <div class="firework"></div>
+            <div class="firework"></div>
+            <div id="videoContainer" class="hidden">
+                <iframe id="birthdaySong" width="0" height="0" src="https://www.youtube.com/embed/Wu8NeFXaoOc?autoplay=1&start=18" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
