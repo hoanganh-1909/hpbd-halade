@@ -63,6 +63,28 @@ button:hover {
 
 
 
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.marquee {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%; /* Bắt đầu văn bản bên ngoài vùng nhìn thấy */
+    animation: marquee 10s linear infinite; /* Điều chỉnh thời gian và kiểu cuộn */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
 
 
 @media only screen and (max-width: 600px) {
