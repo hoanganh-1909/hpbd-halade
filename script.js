@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Thay đổi hình ảnh
         birthdayImage.classList.add('image-hidden');
         setTimeout(() => {
-            birthdayImage.src = './Halade-2.png';
+            birthdayImage.src = './hpbd-2.png';
             birthdayImage.classList.remove('image-hidden');
             birthdayImage.classList.add('image-visible');
         }, 500);
